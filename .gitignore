@@ -1,0 +1,7 @@
+# Exclure les dépendances Node.js
+node_modules/
+
+# Exclure les fichiers d'environnement (variables sensibles)
+.env
+.env.local
+.env.*.local
