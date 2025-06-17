@@ -1,7 +1,11 @@
 # Exclure les dépendances Node.js
 node_modules/
 
-# Exclure les fichiers d'environnement (variables sensibles)
+# Fichiers d'environnement (ne jamais versionner ces fichiers sensibles)
 .env
 .env.local
 .env.*.local
+
+# Fichiers système et temporaires
+.DS_Store
+*.log
